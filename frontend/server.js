@@ -16,5 +16,6 @@ app.get('/', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Frontend running at http://localhost:${port}`);
+  
 });
 
